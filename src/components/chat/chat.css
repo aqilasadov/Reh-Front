@@ -1,0 +1,121 @@
+.chat_wrapper{
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+}
+.chat_group_wrapper{
+    padding: 10px 15px;
+    background: #fff;
+    margin-right: 16px;
+    transition: 200ms all;
+}
+.chat_group_wrapper.chat_disable{
+    width: 100%;
+}
+.chat_group_wrapper.chat_enable{
+    width: 20%;
+}
+.chat_group_list{
+    display: flex;
+    flex-direction: column;
+}
+.chat_group{
+    width: 100%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid #e2e2e2;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 8px;
+    padding: 2px 8px;
+    transition: 200ms all;
+}
+.chat_group.active{
+    background: #0DA9BB;
+    color: #fff;
+}
+.chat_group:hover{
+    cursor: pointer;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+}
+.chat_dialog_wrapper{
+    width: 100%;
+    background: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+.msg_list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding: 15px;
+}
+.msg_list::-webkit-scrollbar{
+    width: 5px;
+    
+}
+.msg_list::-webkit-scrollbar-track{
+    background: transparent;
+    border-radius: 5px;
+}
+.msg_list::-webkit-scrollbar-thumb{
+    background-color: #0DA9BB;
+    border-radius: 5px;
+}
+.msg_wrapper{
+    display: flex;
+    flex-direction: column;
+    background: grey;
+    background: #fff;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.20);
+    width: 60% ;
+    border-radius: 4px;
+    padding: 6px 8px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 8px 0 ;
+}
+.msg_wrapper.me{
+    align-self: flex-end;
+    background-color: #0DA9BB;
+    color: #fff;
+}
+.msg_sender{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.msg{
+    margin: 0;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.date{
+    align-self: flex-end;
+}
+.chat_controllers{
+    display: flex;
+    margin-top: 32px;
+    padding: 0 15px;
+}
+.msg_box{
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #0DA9BB;
+    flex-grow: 1;
+    margin-right: 16px;
+   
+}
+.send_btn{
+    background: #0DA9BB;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}

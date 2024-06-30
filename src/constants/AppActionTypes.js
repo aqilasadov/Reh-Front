@@ -1,0 +1,3 @@
+export const APP_SET_MODULE_TITLE = "APP_SET_MODULE_TITLE";
+export const  OPEN_DRAWER = 'OPEN_DRAWER';
+export const  CLOSE_DRAWER = 'CLOSE_DRAWER';

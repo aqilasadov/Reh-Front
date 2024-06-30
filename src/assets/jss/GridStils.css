@@ -1,0 +1,17 @@
+#gridContainer {
+    height: 440px;
+}
+
+.oldOrder {
+    color: #AAAAAA;
+}
+
+.highAmountOrder_saleAmount {
+    background-color: #ff0000;
+    color: #000000;
+}
+
+.highAmountOrder_employee {
+    color: #ff0000;
+    font-weight: bold;
+}
