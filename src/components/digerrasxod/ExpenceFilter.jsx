@@ -92,7 +92,18 @@ function TransferFilter(props) {
                             <Print/>
                             Эмин отчет
                         </Button>
+                        <Button justIconThin round simple
+                                onClick={onFilterClearButtonClick3}
+                                color="primary">
+                            <Print/>
+                            Эмин  расходы
+                        </Button>
                     </Grid>
+
+
+
+
+
                 </Grid>
 
 

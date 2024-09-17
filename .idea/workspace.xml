@@ -4,56 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5f243f0-b57f-4de0-b824-7d8bb9f51be6" name="Changes" comment="01.05.2023">
-      <change afterPath="$PROJECT_DIR$/src/components/Transfer3/Transfer3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/kassaturk1/Kassa1DigerV3.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/kassaturk1/Kassa1DigerV3Form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/kassaturk1/Kassa1DigerV3Helper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/kassaturk1/Kassa1FilterV3.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/kassaturk1_1/Kassa1_1DigerV3.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/kassaturk1_1/Kassa1_1DigerV3Form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/kassaturk1_1/Kassa1_1DigerV3Helper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/kassaturk1_1/Kassa1_1FilterV3.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/kassaturk2_2/Kassa2_2DigerV3.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/kassaturk2_2/Kassa2_2DigerV3Form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/kassaturk2_2/Kassa2_2DigerV3Helper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/kassaturk2_2/Kassa2_2FilterV3.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tab5/KassaFilterMain.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/taball/TransAllFilter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tabdeleteall/TransDeleteFilter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/transfer/TrTransTab.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/transfer/TrTransTabHelper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/transfer/Trans7Form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/transfer/Trfilter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/container/ExpenceTypePage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/container/Tansfer3Page.jsx" afterDir="false" />
+    <list default="true" id="e5f243f0-b57f-4de0-b824-7d8bb9f51be6" name="Changes" comment="30.06.2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components-tim/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components-tim/Sidebar/Sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/clients/Clients.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/clients/Clients.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/partiya/Partiya.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/partiya/Partiya.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/report_currate/ReportCurRate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/report_currate/ReportCurRate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tab5/Trans5.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab5/Trans5.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tab5/Trans5Helper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab5/Trans5Helper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tab7/Trans7.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab7/Trans7.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tab7/Trans7Helper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tab7/Trans7Helper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/taball/TransAll.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/taball/TransAll.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/taball/TransAllHelper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/taball/TransAllHelper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabdeleteall/TransDeleteAll.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabdeleteall/TransDeleteAll.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabdeleteall/TransDeleteAllHelper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabdeleteall/TransDeleteAllHelper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabdiger/TransDiger.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabdiger/TransDiger.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabdiger/TransDigerHelper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabdiger/TransDigerHelper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabdiger/TransferFilter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabdiger/TransferFilter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabdigerv2/TransDigerV2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabdigerv2/TransDigerV2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabdigerv2/TransDigerV2Helper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabdigerv2/TransDigerV2Helper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabdigerv2/TransferFilterV2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabdigerv2/TransferFilterV2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabdigerv3/TransDigerV3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabdigerv3/TransDigerV3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabdigerv3/TransDigerV3Helper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabdigerv3/TransDigerV3Helper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tabdigerv3/TransferFilterV3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tabdigerv3/TransferFilterV3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/transfer/Transfer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/transfer/Transfer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/PageWrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/PageWrapper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/container/TansferPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/TansferPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/digerrasxod/Expence.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/digerrasxod/Expence.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/digerrasxod/ExpenceFilter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/digerrasxod/ExpenceFilter.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/Constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Constants.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +59,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/AllProjects/BorcAlacaq_V2/BorcFront/src/components/transfer&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/AllProjects/BorcAlacaq_V2/BorcFront&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -335,6 +290,15 @@
       <workItem from="1718921790722" duration="1391000" />
       <workItem from="1719005826433" duration="425000" />
       <workItem from="1719302494652" duration="369000" />
+      <workItem from="1719748512383" duration="371000" />
+      <workItem from="1721729993444" duration="6729000" />
+      <workItem from="1721738153752" duration="600000" />
+      <workItem from="1724304552192" duration="2955000" />
+      <workItem from="1724475749855" duration="1451000" />
+      <workItem from="1725264338344" duration="737000" />
+      <workItem from="1725265256319" duration="144000" />
+      <workItem from="1725266865637" duration="2000" />
+      <workItem from="1726405419321" duration="1002000" />
     </task>
     <task id="LOCAL-00001" summary="initial 06042022">
       <created>1649274632336</created>
@@ -392,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682921754584</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="30.06.2024">
+      <created>1719748874827</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719748874827</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,6 +389,7 @@
     <MESSAGE value="02.03.2023" />
     <MESSAGE value="15.04.2023" />
     <MESSAGE value="01.05.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="01.05.2023" />
+    <MESSAGE value="30.06.2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="30.06.2024" />
   </component>
 </project>

@@ -5,8 +5,8 @@ export const CLIENT_ID = 'clientid';
 export const BEGDATE = 'begdate';
 export const ENDDATE = 'enddate';
 
-//export const BACKEND_URL = 'http://38.242.234.249:9099/StatRestApi';
- export const BACKEND_URL = 'http://localhost:8075';
+export const BACKEND_URL = 'http://192.168.151.20:9099/StatRestApi';
+// export const BACKEND_URL = 'http://localhost:8075';
 
 //
 

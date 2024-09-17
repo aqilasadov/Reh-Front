@@ -80,7 +80,7 @@
 
                         <configuration>
                             <environmentVariables>
-                                <PUBLIC_URL>http://38.242.234.249:9099/${project.artifactId}</PUBLIC_URL>
+                                <PUBLIC_URL>http://192.168.151.20:9099/${project.artifactId}</PUBLIC_URL>
                                 <REACT_APP_ROUTER_BASE>/${project.artifactId}</REACT_APP_ROUTER_BASE>
                             </environmentVariables>
                         </configuration>
@@ -99,7 +99,7 @@
 
                         <configuration>
                             <environmentVariables>
-                                <PUBLIC_URL>http://38.242.234.249:9099/${project.artifactId}</PUBLIC_URL>
+                                <PUBLIC_URL>http://192.168.151.20:9099/${project.artifactId}</PUBLIC_URL>
                                 <REACT_APP_ROUTER_BASE>/${project.artifactId}</REACT_APP_ROUTER_BASE>
                             </environmentVariables>
                         </configuration>

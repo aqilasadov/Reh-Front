@@ -159,20 +159,37 @@ class Partiya extends CoreComponent {
     };
 
 
-    handleClearButtonClick2 = () => {
+    handleClearButtonClick3 = () => {
 
         if (this.state.filterData.client.value === -1) {
 
-            this.setState(Object.assign({}, this.state, {
-                snackBar: Object.assign({}, this.state.snackBar, {
-                    show: true,
-                    message: 'Пожалуйста, выберите клиента',
-                    variant: 'warning'
-                }),
-            }));
 
+            const params = {
+                reportId: 60,
+                fileType: "PDF",
+                requestParams: [
+                    {name: "client_id", isSet: 1, value: this.state.filterData.client.value},
+                    {
+                        name: "begin_date",
+                        isSet: 1,
+                        value: moment.unix(this.state.filterData.begdate).format("YYYY/MM/DD")
+                    },
+                    {
+                        name: "end_date",
+                        isSet: 1,
+                        value: moment.unix(this.state.filterData.enddate).format("YYYY/MM/DD")
+                    },
+                ]
+            };
 
-        } else {
+            ReportUtils.getDownloadToken(params, this.processing, this.error, response => {
+                ReportUtils.openReport(response);
+            });
+        }
+    };
+
+    handleClearButtonClick2 = () => {
+
             const params = {
                 reportId: 55,
                 fileType: "PDF",
@@ -194,7 +211,7 @@ class Partiya extends CoreComponent {
             ReportUtils.getDownloadToken(params, this.processing, this.error, response => {
                 ReportUtils.openReport(response);
             });
-        }
+
     };
 
 
@@ -317,10 +334,16 @@ class Partiya extends CoreComponent {
 
     // Dialoglar uzerindeki actionlarin handle oldugu  function
     handleDialogAction = type => action => {
+        const sleep = (milliseconds) => {
+            return new Promise(resolve => setTimeout(resolve, milliseconds))
+        }
         console.log(type, action);
         if (type === 'addedit') {
-            if (action === 'agree')
+            if (action === 'agree'){
                 this.insertUpdate();
+            sleep(1500).then(() => {
+                this.loadData();
+            })}
             else
                 this.setState(Object.assign({}, this.state, {
                     dialogAddEdit: this.dialogAddEditState(false),
